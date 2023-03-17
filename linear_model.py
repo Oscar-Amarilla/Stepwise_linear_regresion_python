@@ -56,7 +56,7 @@ def linear_regression(A,y):
     R_2 = 1-sse/sts
 
 #Computing the adjusted R_2 value.
-    R_2_adj = 1-sse/sts*(n-1)/(n-tot_param)
+    R_2_adj = 1-(sse/sts)*((n-1)/(n-tot_param))
 
 #Square residual mean.
     s_2 = sse/(n-tot_param) # sse/(n-(k+1) , Mean error.  
