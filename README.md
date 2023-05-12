@@ -22,14 +22,14 @@ The structure of the project is the following:
 |__ README.md 
 ```
 
-The aplication example jupyter notebook will help the user what is the project about.
+The aplication example jupyter notebook will help the user to know what is the project about.
 
 ## How to run [Stepwise_linear_regresion_python](https://github.com/Oscar-Amarilla/Stepwise_linear_regresion_python)?
 
 The user may want to check for the requirements in the requirements.txt file to know with which 
-libraries the project was developed and avoid inconsistencies. If there is a problem with the user enviorment and the project dependencies, the following instructions must bw followed to make it work. 
+libraries the project was developed and avoid inconsistencies. If there is a problem with the user enviorment and the project dependencies, the following instructions must be followed to make it work. 
 
-To run the notebook, first create the virtual enviornment for it
+After cloning the repository, create a virtual enviornment in the same folder
 
 ```bash
 python -m venv name_of_the_venv # The name of the venv is up to the user.
@@ -44,14 +44,14 @@ Then install the requirements listed in the requirements.txt using pip.
 ```bash
 pip install -r requirements.txt
 ```
-Finally, the notebook can be run. In the terminal, go to the notebook directory and run the notebook and open it.
+Finally, the notebook can be executed.
 
 ```bash
 jupyter notebook
 ```
 ## Future work
 
-The stepwise regression model depends of the linear regression method, this linear regression method is based purelly in linear algebra. The next step is to change it for a gradient descent approach in order to return better the linear models. 
+The stepwise regression model depends on the linear regression method, this linear regression method is based purelly in linear algebra. The next step is to change it for a gradient descent approach in order to return better linear models. 
 
 ## References 
 
